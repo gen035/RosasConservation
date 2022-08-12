@@ -1,0 +1,17 @@
+.content {
+  color: $blue;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  h1 {
+    @include fontMedium;
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    @include fontRegular;
+    font-size: 24px;
+  }
+}

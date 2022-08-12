@@ -1,0 +1,27 @@
+.header {
+  &-languages {
+    text-align: right;
+    ul {
+      @include fontThin;
+
+      li {
+        display: inline-flex;
+        text-transform: uppercase;
+        padding: 0 10px;
+        &:not(:last-child) {
+          position: relative;
+          &::after {
+            content: '//';
+            right: -7px;
+            position: absolute;
+          }
+        }
+
+        a {
+          color: $blue;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

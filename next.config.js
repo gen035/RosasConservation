@@ -1,6 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+const nextTranslate = require('next-translate');
+const withSvgr = require("next-svgr");
+module.exports = {
+  ... nextTranslate(),
+  ...withSvgr(),
+  trailingSlash: false,
 }
-
-module.exports = nextConfig

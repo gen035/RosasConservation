@@ -1,0 +1,11 @@
+body {
+  background-color: $beige;
+  border: 3px solid $blue;  
+}
+
+#__next {
+  height: 100vh;
+  padding: 30px;
+  position: relative;
+  width: 100vw;
+}

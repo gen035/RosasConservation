@@ -1,0 +1,14 @@
+@mixin fontThin {
+  font-family: 'Clear Sans', sans-serif;
+  font-weight: 100;
+}
+
+@mixin fontRegular {
+  font-family: 'Clear Sans', sans-serif;
+  font-weight: 400;
+}
+
+@mixin fontMedium {
+  font-family: 'Clear Sans', sans-serif;
+  font-weight: 500;
+}
