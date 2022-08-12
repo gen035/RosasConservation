@@ -6,12 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "static": "next build && next export"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "bootstrap": "^5.2.0",
+    "font-awesome": "^4.7.0",
     "next": "12.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "reset-css": "^5.0.1",
+    "sass": "^1.54.4"
   },
   "devDependencies": {
     "eslint": "8.21.0",
