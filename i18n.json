@@ -3,7 +3,7 @@
   "defaultLocale": "en",
   "localeDetection": true,
   "pages": {
-    "*": ["common"],
+    "*": ["common", "modal", "contact"],
     "/": ["home"]
   }
 }

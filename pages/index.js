@@ -1,11 +1,22 @@
+import { useContext, useState } from "react";
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import useTranslation from 'next-translate/useTranslation';
+
+import AppContext from "../AppContext";
+import ContactModal from "../components/contactModal";
+
 export default function Home() {
   const router = useRouter();
   const { t } = useTranslation();
+  const [context, setContext] = useContext(AppContext);
+
+  const toggleModal = () => {
+    const modalOpened = context && context.isContactModalOpened;
+    setContext({...context, isContactModalOpened: !modalOpened});
+  };
 
   return (
     <>
@@ -35,7 +46,7 @@ export default function Home() {
      <div className="content d-flex flex-column align-items-center justify-content-center">
         <h1>{t('home:title')}</h1>
         <h2>{t('home:description')}</h2>
-        <div className="button">
+        <div onClick={toggleModal} className="button" href="mailto:gabriela@rosasconservation.com">
           <p className="button-text">
             {t('home:contact')}
           </p>
@@ -43,6 +54,7 @@ export default function Home() {
             <p className="button-icon fa-solid fa-envelope"></p>
           </div>
         </div>
+        <ContactModal />
       </div>
     </>
   )

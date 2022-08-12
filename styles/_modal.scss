@@ -1,0 +1,22 @@
+#modal-portal {
+  .fixed:first-of-type {
+    backdrop-filter: blur(0px);
+    background-color: rgba(16, 16, 16, 0.35)!important;
+  }
+  .modal {
+    background: $beige;
+    color: $blue;
+    border-radius: 5px;
+    max-width: 500px;
+    min-width: auto;
+    width: 95%;
+    &-header {
+      margin: 0 auto 20px auto;
+    }
+
+    h3 {
+      text-align: center;
+      @include fontMedium;
+    }
+  }
+}

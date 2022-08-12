@@ -1,0 +1,40 @@
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    @include fontThin;
+  }
+
+  input {
+    appearance: none;
+    color: $blue;
+    background-color: $beige;
+    border: 1px solid $blue;
+    border-radius: 5px;
+    padding: 10px;
+    @include fontThin;
+  }
+
+  p {
+    color: red;
+    font-size: 12px;
+    margin: 5px 0 10px 0;
+    @include fontRegular;
+  }
+
+  textarea {
+    appearance: none;
+    color: $blue;
+    background-color: $beige;
+    border: 1px solid $blue;
+    border-radius: 5px;
+    height: 125px;
+    padding: 10px;
+  }
+
+  button {
+    @include button;
+  }
+}

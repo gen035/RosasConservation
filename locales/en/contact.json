@@ -1,0 +1,8 @@
+{
+  "name": "Name",
+  "name_error": "*Name required",
+  "email": "Email",
+  "email_error": "*Email required",
+  "message": "Message",
+  "submit": "Send"
+}
