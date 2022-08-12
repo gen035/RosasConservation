@@ -12,6 +12,7 @@
           position: relative;
           &::after {
             content: '//';
+            color: $blue;
             right: -7px;
             position: absolute;
           }
