@@ -17,7 +17,7 @@
     @include fontThin;
   }
 
-  p {
+   > p {
     color: red;
     font-size: 12px;
     margin: 5px 0 10px 0;
@@ -36,5 +36,10 @@
 
   button {
     @include button;
+
+    p {
+      font-size: 16px;
+      line-height: 1;
+    }
   }
 }
