@@ -4,6 +4,7 @@ body {
 }
 
 #__next {
+  box-sizing: border-box;
   height: 100vh;
   padding: 30px;
   position: relative;
