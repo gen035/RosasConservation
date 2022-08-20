@@ -4,5 +4,8 @@
   "email": "Email",
   "email_error": "*Email required",
   "message": "Message",
-  "submit": "Send"
+  "submit": "Send",
+  "submitting": "Sending...",
+  "success": "Your message been sent. Thank you!",
+  "error": "An error occured, please try again later."
 }

@@ -12,14 +12,14 @@
           position: relative;
           &::after {
             content: '//';
-            color: $blue;
+            color: $color_blue;
             right: -7px;
             position: absolute;
           }
         }
 
         a {
-          color: $blue;
+          color: $color_blue;
           text-decoration: none;
         }
       }

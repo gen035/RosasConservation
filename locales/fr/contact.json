@@ -4,5 +4,8 @@
   "email": "Courriel",
   "email_error": "*Courriel requis",
   "message": "Message",
-  "submit": "Envoyer"
+  "submit": "Envoyer",
+  "submitting": "En cours...",
+  "success": "Merci ! Votre message a été envoyé.",
+  "error": "Une erreur est subvenue, re-essayer plus tard."
 }
