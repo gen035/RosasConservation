@@ -7,6 +7,7 @@ import useTranslation from 'next-translate/useTranslation';
 
 import AppContext from "../AppContext";
 import ContactModal from "../components/contactModal";
+import LogoSvg from '../components/logo';
 
 export default function Home() {
   const router = useRouter();
@@ -53,7 +54,7 @@ export default function Home() {
      <header>
       <div className="row">
         <div className="col-6">
-          <Image src="/logo.svg" alt="Logo" className="header-logo" width={80} height={80} />
+          <LogoSvg width={80}/>
         </div>
         <div className="col-6 header-languages">
           <ul>
