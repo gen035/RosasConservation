@@ -46,9 +46,11 @@
 
   .button-icon {
     color: $color_blue;
-    margin-right: -130px;
     margin-top: 63px;
+    position: absolute;
+    left: 155px;
   }
+
   &:hover:not(:disabled) {
     .button-icon-container{
       left: -130px;
