@@ -1,10 +1,11 @@
 body {
   background-color: $color_beige;
-  border: 3px solid $color_blue;  
+  height: 100vh;
 }
 
 #__next {
   box-sizing: border-box;
+  border: 3px solid $color_blue;
   height: 100vh;
   padding: 30px;
   position: relative;
