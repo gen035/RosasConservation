@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[716],{1716:function(e){e.exports=JSON.parse('{"name":"Nom","name_error":"*Nom requis","email":"Courriel","email_error":"*Courriel requis","message":"Message","submit":"Envoyer"}')}}]);
