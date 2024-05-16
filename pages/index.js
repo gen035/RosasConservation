@@ -61,7 +61,7 @@ export default function Home() {
             {router.locales.map(locale => (
               <li key={locale}>
                 <Link href={router.asPath} locale={locale}>
-                  <a>{locale}</a>
+                  {locale}
                 </Link>
               </li>
             ))}
