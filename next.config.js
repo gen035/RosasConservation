@@ -1,4 +1,11 @@
+
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextTranslate = require('next-translate');
-module.exports = {
+const nextConfig = {
+  /* config options here */
   ... nextTranslate()
 }
+ 
+module.exports = nextConfig
