@@ -1,7 +1,5 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
@@ -32,8 +30,6 @@ class MyDocument extends Document {
           <Main />
           <div id='modal-portal' />
           <NextScript />
-          <Analytics />
-          <SpeedInsights />
         </body>
       </Html>
     )
